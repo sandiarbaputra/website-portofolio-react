@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-fixed {
+  @apply z-[99999] !bg-slate-300 bg-opacity-60 dark:!bg-dark3 dark:bg-opacity-60;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1024px) {
+  #gambar {
+    background-image: url("/profile-flip.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position: bottom; */
+    scale: 1.3;
+    filter: grayscale(100%);
+  }
+
+  #about-img {
+    background-image: url("/pinellia-flip.jpg");
+    background-size: cover;
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  #image {
+    background-image: url("/pinellia-flip.jpg");
+    background-size: cover;
+    /* background-position: 0 -100px; */
+    background-repeat: no-repeat;
+  }
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[3px] block bg-dark dark:bg-white rounded-sm;
+}
+
+.hamburger-active {
+  /* @apply; */
+}
+
+.navbar-fixed {
+  @apply z-40 bg-dark3 bg-opacity-60 backdrop-blur-sm;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+/* #html-logo {
+  width: 50px;
+} */
+
+#skills-logo img {
+  width: 90px;
+}
+
+@media (min-width: 768px) {
+  #skills-logo img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #skills-logo img {
+    width: 137px;
+  }
+}
+
+#arrow-up {
+  scale: 0.5;
+}
+
+#dark-toggle:checked ~ label div.toggle-circle {
+  @apply translate-x-3;
+}
