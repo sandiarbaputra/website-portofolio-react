@@ -24,7 +24,7 @@ const Portofolio = () => {
           >
             <div className="rounded-md overflow-hidden border border-primary">
               <img
-                src="/portofolio-img/portofolio-4.png"
+                src="portofolio-img/portofolio-4.png"
                 alt="portofolio-img-1"
               />
             </div>
@@ -47,7 +47,7 @@ const Portofolio = () => {
           >
             <div className="rounded-md overflow-hidden border border-primary">
               <img
-                src="/portofolio-img/portofolio-1.png"
+                src="portofolio-img/portofolio-1.png"
                 alt="portofolio-img-1"
               />
             </div>
@@ -69,10 +69,7 @@ const Portofolio = () => {
             data-aos="zoom-in-up"
           >
             <div className="rounded-md overflow-hidden border border-primary">
-              <img
-                src="/portofolio-img/portofolio.png"
-                alt="portofolio-img-1"
-              />
+              <img src="portofolio-img/portofolio.png" alt="portofolio-img-1" />
             </div>
             <div className="p-4">
               <h4 className="mb-2 text-2xl font-bold text-center text-primary">
@@ -94,7 +91,7 @@ const Portofolio = () => {
           >
             <div className="rounded-md overflow-hidden border border-primary">
               <img
-                src="/portofolio-img/portofolio-3.png"
+                src="portofolio-img/portofolio-3.png"
                 alt="portofolio-img-1"
               />
             </div>

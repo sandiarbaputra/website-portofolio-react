@@ -75,7 +75,7 @@ const Contact = () => {
                     <div className="flex gap-x-4 md:hidden">
                       <a href="https://wa.link/c4mnrp">
                         <img
-                          src="/icon-contact/whatsapp.png"
+                          src="icon-contact/whatsapp.png"
                           alt="whatsapp"
                           width={25}
                         />
@@ -83,7 +83,7 @@ const Contact = () => {
                       </a>
                     </div>
                     <div className="flex gap-x-4 md:hidden">
-                      <img src="/icon-contact/mail.png" alt="" width={25} />
+                      <img src="icon-contact/mail.png" alt="" width={25} />
                       <p>sandiarba09@gmail.com</p>
                     </div>
                     <div className="flex gap-x-4 md:hidden">
@@ -92,7 +92,7 @@ const Contact = () => {
                         target="_blank"
                         className="flex"
                       >
-                        <img src="/icon-contact/github.png" alt="" width={25} />
+                        <img src="icon-contact/github.png" alt="" width={25} />
                         <p className="ms-4">sandiarbaputra</p>
                       </a>
                     </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                         className="flex"
                       >
                         <img
-                          src="/icon-contact/facebook.png"
+                          src="icon-contact/facebook.png"
                           alt=""
                           width={25}
                         />
@@ -117,7 +117,7 @@ const Contact = () => {
                         className="flex"
                       >
                         <img
-                          src="/icon-contact/instagram.png"
+                          src="icon-contact/instagram.png"
                           alt=""
                           width={25}
                         />
@@ -130,11 +130,7 @@ const Contact = () => {
                         target="_blank"
                         className="flex"
                       >
-                        <img
-                          src="/icon-contact/tik-tok.png"
-                          alt=""
-                          width={25}
-                        />
+                        <img src="icon-contact/tik-tok.png" alt="" width={25} />
                         <p className="ms-4">twoliong</p>
                       </a>
                     </div>
@@ -150,7 +146,7 @@ const Contact = () => {
                               className="flex"
                             >
                               <img
-                                src="/icon-contact/whatsapp.png"
+                                src="icon-contact/whatsapp.png"
                                 alt="github"
                                 width={25}
                               />
@@ -159,7 +155,7 @@ const Contact = () => {
                           </div>
                           <div className="flex gap-x-4">
                             <img
-                              src="/icon-contact/mail.png"
+                              src="icon-contact/mail.png"
                               alt=""
                               width={25}
                             />
@@ -172,7 +168,7 @@ const Contact = () => {
                               className="flex"
                             >
                               <img
-                                src="/icon-contact/github.png"
+                                src="icon-contact/github.png"
                                 alt="github"
                                 width={25}
                               />
@@ -186,7 +182,7 @@ const Contact = () => {
                               className="flex"
                             >
                               <img
-                                src="/icon-contact/facebook.png"
+                                src="icon-contact/facebook.png"
                                 alt="facebook"
                                 width={25}
                               />
@@ -200,7 +196,7 @@ const Contact = () => {
                               className="flex"
                             >
                               <img
-                                src="/icon-contact/instagram.png"
+                                src="icon-contact/instagram.png"
                                 alt="instagram"
                                 width={25}
                               />
@@ -214,7 +210,7 @@ const Contact = () => {
                               className="flex"
                             >
                               <img
-                                src="/icon-contact/tik-tok.png"
+                                src="icon-contact/tik-tok.png"
                                 alt="tiktok"
                                 width={25}
                               />
@@ -311,16 +307,16 @@ const Contact = () => {
           </div>
           <div className="flex flex-col items-start gap-y-2 w-full">
             <div className="flex gap-x-4 md:hidden">
-              <img src="/icon-contact/whatsapp.png" alt="" width={25} />
+              <img src="icon-contact/whatsapp.png" alt="" width={25} />
               <p>+62-838-4133-0243</p>
             </div>
             <div className="flex gap-x-4 md:hidden">
-              <img src="/icon-contact/mail.png" alt="" width={25} />
+              <img src="icon-contact/mail.png" alt="" width={25} />
               <p>sandiarba09@gmail.com</p>
             </div>
             <div className="flex gap-x-4 md:hidden">
               <a href="" target="_blank" className="flex">
-                <img src="/icon-contact/github.png" alt="" width={25} />
+                <img src="icon-contact/github.png" alt="" width={25} />
                 <p className="ms-4">sandiarbaputra.github.io</p>
               </a>
             </div>
@@ -330,7 +326,7 @@ const Contact = () => {
                 target="_blank"
                 className="flex"
               >
-                <img src="/icon-contact/facebook.png" alt="" width={25} />
+                <img src="icon-contact/facebook.png" alt="" width={25} />
                 <p className="ms-4">Sandi Ar</p>
               </a>
             </div>
@@ -340,13 +336,13 @@ const Contact = () => {
                 target="_blank"
                 className="flex"
               >
-                <img src="/icon-contact/instagram.png" alt="" width={25} />
+                <img src="icon-contact/instagram.png" alt="" width={25} />
                 <p className="ms-4">_arbaa_</p>
               </a>
             </div>
             <div className="flex gap-x-4 md:hidden">
               <a href="" target="_blank" className="flex">
-                <img src="/icon-contact/tik-tok.png" alt="" width={25} />
+                <img src="icon-contact/tik-tok.png" alt="" width={25} />
                 <p className="ms-4">twoliong</p>
               </a>
             </div>
@@ -356,16 +352,16 @@ const Contact = () => {
               <div className="flex justify-around">
                 <div className="w-1/2 flex flex-col gap-y-2">
                   <div className="flex gap-x-4">
-                    <img src="/icon-contact/whatsapp.png" alt="" width={25} />
+                    <img src="icon-contact/whatsapp.png" alt="" width={25} />
                     <p>+62-838-4133-0243</p>
                   </div>
                   <div className="flex gap-x-4">
-                    <img src="/icon-contact/mail.png" alt="" width={25} />
+                    <img src="icon-contact/mail.png" alt="" width={25} />
                     <p>sandiarba09@gmail.com</p>
                   </div>
                   <div className="flex gap-x-4">
                     <a href="" target="_blank" className="flex">
-                      <img src="/icon-contact/github.png" alt="" width={25} />
+                      <img src="icon-contact/github.png" alt="" width={25} />
                       <p className="ms-4">sandiarbaputra.github.io</p>
                     </a>
                   </div>
@@ -377,7 +373,7 @@ const Contact = () => {
                       target="_blank"
                       className="flex"
                     >
-                      <img src="/icon-contact/facebook.png" alt="" width={25} />
+                      <img src="icon-contact/facebook.png" alt="" width={25} />
                       <p className="ms-4">Sandi Ar</p>
                     </a>
                   </div>
@@ -387,17 +383,13 @@ const Contact = () => {
                       target="_blank"
                       className="flex"
                     >
-                      <img
-                        src="/icon-contact/instagram.png"
-                        alt=""
-                        width={25}
-                      />
+                      <img src="icon-contact/instagram.png" alt="" width={25} />
                       <p className="ms-4">_arbaa_</p>
                     </a>
                   </div>
                   <div className="flex gap-x-4">
                     <a href="" target="_blank" className="flex">
-                      <img src="/icon-contact/tik-tok.png" alt="" width={25} />
+                      <img src="icon-contact/tik-tok.png" alt="" width={25} />
                       <p className="ms-4">twoliong</p>
                     </a>
                   </div>

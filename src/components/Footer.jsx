@@ -1,17 +1,11 @@
 import React from "react";
-import BackToTop from "./BackToTop";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-dark3 text-white px-10 pt-10 pb-7 lg:px-20 flex flex-col items-start gap-y-5">
       <div className="lg:w-full flex flex-col justify-center items-start md:items-center md:flex-row gap-y-5 w-full md:px-10">
         <div className="lg:w-1/3 md:w-1/3 flex flex-col items-start">
-          <img
-            src="/logo-b.png"
-            alt="footer-logo"
-            width={40}
-            className="mb-2"
-          />
+          <img src="logo-b.png" alt="footer-logo" width={40} className="mb-2" />
           <h1 className="text-2xl font-semibold text-primary mb-2">
             Contact Me
           </h1>

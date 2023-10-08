@@ -78,10 +78,10 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex items-center w-7/12 md:w-6/12">
         <a href="#hero" className="block dark:hidden">
-          <img src="/logo-w.png" alt="logo" width={40} />
+          <img src="logo-w.png" alt="logo" width={40} />
         </a>
         <a href="#hero" className="hidden dark:block">
-          <img src="/logo-b.png" alt="logo" width={40} />
+          <img src="logo-b.png" alt="logo" width={40} />
         </a>
       </div>
 
@@ -119,12 +119,11 @@ const Navbar = () => {
             Contact
           </a>
           <div className="hover:cursor-pointer">
-            {/* <img src="/icon-navbar/moon.png" alt="" width={25} /> */}
             <img
               src={
                 theme === "dark"
-                  ? "/icon-navbar/sun.png"
-                  : "/icon-navbar/moon.png"
+                  ? "icon-navbar/sun.png"
+                  : "icon-navbar/moon.png"
               }
               alt={theme === "dark" ? "Moon" : "Sun"}
               width={20}
@@ -189,8 +188,8 @@ const Navbar = () => {
                   <img
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/home-w.png"
-                        : "/icon-navbar/home-b.png"
+                        ? "icon-navbar/home-w.png"
+                        : "icon-navbar/home-b.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     width={20}
@@ -217,8 +216,8 @@ const Navbar = () => {
                   <img
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/about-w.png"
-                        : "/icon-navbar/about-b.png"
+                        ? "icon-navbar/about-w.png"
+                        : "icon-navbar/about-b.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     width={20}
@@ -245,8 +244,8 @@ const Navbar = () => {
                   <img
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/skills-w.png"
-                        : "/icon-navbar/skills-b.png"
+                        ? "icon-navbar/skills-w.png"
+                        : "icon-navbar/skills-b.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     width={20}
@@ -273,8 +272,8 @@ const Navbar = () => {
                   <img
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/portofolio-w.png"
-                        : "/icon-navbar/portofolio-b.png"
+                        ? "icon-navbar/portofolio-w.png"
+                        : "icon-navbar/portofolio-b.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     width={20}
@@ -301,8 +300,8 @@ const Navbar = () => {
                   <img
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/contact-w.png"
-                        : "/icon-navbar/contact-b.png"
+                        ? "icon-navbar/contact-w.png"
+                        : "icon-navbar/contact-b.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     width={20}
@@ -321,8 +320,8 @@ const Navbar = () => {
                   <h2
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/sun.png"
-                        : "/icon-navbar/moon.png"
+                        ? "icon-navbar/sun.png"
+                        : "icon-navbar/moon.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     className="text-dark3 dark:text-white opacity-100 text-lg font-semibold w-full"
@@ -342,8 +341,8 @@ const Navbar = () => {
                   <img
                     src={
                       theme === "dark"
-                        ? "/icon-navbar/sun.png"
-                        : "/icon-navbar/moon.png"
+                        ? "icon-navbar/sun.png"
+                        : "icon-navbar/moon.png"
                     }
                     alt={theme === "dark" ? "Moon" : "Sun"}
                     width={20}
@@ -357,23 +356,6 @@ const Navbar = () => {
                   />
                 </div>
               </li>
-              {/* <li>
-                <div onClick={handleThemeSwitch} className="cursor-pointer">
-                  {isTextMode ? (
-                    <span>{darkModeText}</span>
-                  ) : (
-                    <img
-                      src={
-                        theme === "dark"
-                          ? "/icon-navbar/moon.png"
-                          : "/icon-navbar/sun.png"
-                      }
-                      alt={theme === "dark" ? "Moon" : "Sun"}
-                      width={25}
-                    />
-                  )}
-                </div>
-              </li> */}
             </ul>
           </div>
         </div>
