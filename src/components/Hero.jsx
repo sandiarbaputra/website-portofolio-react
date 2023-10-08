@@ -59,7 +59,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-primary border-white flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/whatsapp-w.png"
+                    src="icon-contact/whatsapp-w.png"
                     alt="facebook-logo"
                     width={20}
                     className="text-white"
@@ -76,7 +76,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-white border-primary flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/facebook.png"
+                    src="icon-contact/facebook.png"
                     alt="facebook-logo"
                     width={20}
                     className="text-white"
@@ -90,7 +90,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-primary border-white flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/facebook-w.png"
+                    src="icon-contact/facebook-w.png"
                     alt="facebook-logo"
                     width={20}
                     className="text-white"
@@ -107,7 +107,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-white border-primary flex justify-center items-center hover:bg-dark transition duration- shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/instagram.png"
+                    src="icon-contact/instagram.png"
                     alt="instagram-logo"
                     width={20}
                     className="text-white"
@@ -121,7 +121,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-primary border-white flex justify-center items-center hover:bg-dark transition duration- shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/instagram-w.png"
+                    src="icon-contact/instagram-w.png"
                     alt="instagram-logo"
                     width={20}
                     className="text-white"
@@ -138,7 +138,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-white border-primary flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/tik-tok.png"
+                    src="icon-contact/tik-tok.png"
                     alt="tiktok-logo"
                     width={20}
                     className="text-white"
@@ -152,7 +152,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-primary border-white flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/tik-tok-w.png"
+                    src="icon-contact/tik-tok-w.png"
                     alt="tiktok-logo"
                     width={20}
                     className="text-white"
@@ -169,7 +169,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-white border-primary flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/github.png"
+                    src="icon-contact/github.png"
                     alt="github-logo"
                     width={20}
                     className="text-white"
@@ -183,7 +183,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-primary border-white flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/github-w.png"
+                    src="icon-contact/github-w.png"
                     alt="github-logo"
                     width={20}
                     className="text-white"
@@ -250,22 +250,13 @@ const Hero = () => {
 
         <div className="hidden md:block md:w-1/2 lg:hidden">
           <img
-            src="/profile.png"
+            src="profile.png"
             alt="Sandi Arba Putra"
             className="grayscale min-h-screen object-cover"
             title="profile"
           />
         </div>
       </div>
-
-      {/* <div className="w-full min-h-screen bg-dark flex justify-center -my-16 z-10 md:hidden lg:hidden">
-        <img
-          src="/profile-flip.png"
-          alt="Sandi Arba Putra"
-          className="grayscale min-h-screen object-cover"
-          title="profile"
-        />
-      </div> */}
     </section>
   );
 };

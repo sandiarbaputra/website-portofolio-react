@@ -453,7 +453,10 @@ const Contact = () => {
               onChange={handleInputChange}
               required
             ></textarea>
-            <button type="submit" className="py-2 bg-primary rounded-full my-4">
+            <button
+              type="submit"
+              className="py-2 bg-primary rounded-full my-4 text-white"
+            >
               Kirim Pesan!
             </button>
             {formSubmitted && (
