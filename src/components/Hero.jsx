@@ -45,7 +45,7 @@ const Hero = () => {
                   className="w-10 h-10 rounded-full border-2 bg-white border-primary flex justify-center items-center hover:bg-dark transition duration-500 shadow-sm shadow-primary"
                 >
                   <img
-                    src="/icon-contact/whatsapp.png"
+                    src="icon-contact/whatsapp.png"
                     alt="facebook-logo"
                     width={20}
                     className="text-white"
